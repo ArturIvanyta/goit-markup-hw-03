@@ -54,11 +54,10 @@ a {
 }
 .head-logo-span {
   color: #2e2f42;
-  gap: 40px;
 }
 .nuv-bar {
   display: flex;
-  gap: 40xp;
+  gap: 40px;
 }
 .nuv-link {
   color: #2e2f42;
@@ -137,7 +136,7 @@ a {
   display: flex;
   gap: 24px;
 }
-.section-four-list-item {
+.section-two-list-item {
   width: calc((100% - 72px) / 4);
 }
 .section-two-list-title {
