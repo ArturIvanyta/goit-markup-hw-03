@@ -129,8 +129,12 @@ a {
   background-color: #404bbf;
 }
 /*Section 1*/
-.hidden {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .section-two-wrapper {
   padding: 120px 0;
@@ -254,6 +258,8 @@ a {
   color: #f4f4fd;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
